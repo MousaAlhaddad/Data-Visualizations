@@ -17,7 +17,7 @@ plt.show()
 Temperatures['moving_local'] = np.nan
 Temperatures['moving_global'] = np.nan
 
-# Calculat the 10-Years moving average
+# Calculate the 10-Years moving average
 for x in range(1848,1848+len(Temperatures)-10):
     Temperatures.moving_local[x+10] = Temperatures['avg_temp_local'].loc[x:10+x].mean()
     Temperatures.moving_global[x+10] = Temperatures['avg_temp_global'].loc[x:10+x].mean()
