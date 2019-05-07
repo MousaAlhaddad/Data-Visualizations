@@ -1,5 +1,5 @@
 # Data Visualizations
-To list some examples of using matplotlib and seaborn in producing informative data visualization
+To list some examples of using Python Matplotlib and Seaborn libraries in producing informative data visualization
 
 ## Scripts 
 ### [Game.py](Scripts/Game.py)
