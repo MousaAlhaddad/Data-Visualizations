@@ -13,3 +13,9 @@ df = pd.DataFrame(Dict)
 df = df.sample(700).reset_index(drop=True)
 df.age_at_onset = [-x if x < 0 else x for x in df.age_at_onset]
 df.age_at_onset = [x+10 if x < 5 else x for x in df.age_at_onset]
+
+plt.hist(data=df, x='age_at_onset',bins=range(0,66,2));
+sb.countplot(data=df,x='Type');
+sb.countplot(data=df,x='Area',hue='Type');
+plt.figure(figsize=[5,10])
+sb.boxplot(data=df, y='age_at_onset',x='Type')
