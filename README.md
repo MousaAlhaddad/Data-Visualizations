@@ -7,8 +7,7 @@ It produces an adapted bar chart that involves two categorical variables (matche
 ### [Temperatures.py](Scripts/Temperatures.py)
 It is based on a real [data set](Data/Temperatures.csv) that was was extracted for a project in the [Udacity's Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002) and contains the yearly Riyadh and global temperatures between 1848 and 2013. The results are two time-series chars. Each uses one categorical variable (Riyadh vs the globe) and two quantitative variables (years and temperatures). On the second chart, however, the 10-year moving averages were used to smooth out the data. 
 ### [Insulin.py](Scripts/Insulin.py)
-This is an ongoing project where I create a non-real data of diabetic patients and use it to make data visualizations. 
-
+It is demonstrates the primary visualizations for univariate and bivaiate analysis producing five different charts: bar chart, histogram, scatter plot, clustered bar chart and box plot. 
 
 ## Dependencies
 * [NumPy](https://www.numpy.org/)
