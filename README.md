@@ -14,7 +14,7 @@ It is demonstrates the primary visualizations for univariate and bivariate data 
 - The clustered bar chart shows the differences in the percentages of type 1 and type 2 diabetes between the Middle East and East Asia. 
 
 ## Jupyter Notebooks	
-There is a corresponding Jupyter Notebook for each of the above scripts with the same name. The notebooks are found [here](Jupyter Notebooks). They were added to make the visualizations apparent on the GitHub website. 
+There is a corresponding Jupyter Notebook for each of the above scripts with the same name. The notebooks are found [here](Jupyter%20Notebooks). They were added to make the visualizations apparent on the GitHub website. 
 
 ## Dependencies
 * [NumPy](https://www.numpy.org/)
