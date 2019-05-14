@@ -8,6 +8,8 @@ It produces an adapted bar chart that involves two categorical variables (matche
 It is based on a real [data set](Data/Temperatures.csv) that was was extracted for a project in the [Udacity's Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002) and contains the yearly Riyadh and global temperatures between 1848 and 2013. The results are two time-series chars. Each uses one categorical variable (Riyadh vs the globe) and two quantitative variables (years and temperatures). On the second chart, however, the 10-year moving averages were used to smooth out the data. 
 ### [Insulin.py](Scripts/Insulin.py)
 It is demonstrates the primary visualizations for univariate and bivariate data analysis producing five different charts: a bar chart, a histogram, a scatter plot, a clustered bar chart and a box plot. The dataset is not real. It was generated to consist of the data of 700 diabetic patients. 350 patients are from the Middle East countries while the rest are from East Asia. For each patient, the type of diabetes (type 1 or type 2), the age at diagnosis, the weight and the insulin dose were recorded. 
+- The bar chart shows that type 2 diabetes is more common than type 1 diabetes.
+- The histogram shows that the age distribution is bimodal due the age differences of the two types of diabetes. 
 
 ## Dependencies
 * [NumPy](https://www.numpy.org/)
