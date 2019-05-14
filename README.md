@@ -10,6 +10,9 @@ It is based on a real [data set](Data/Temperatures.csv) that was was extracted f
 It is demonstrates the primary visualizations for univariate and bivariate data analysis producing five different charts: a bar chart, a histogram, a scatter plot, a clustered bar chart and a box plot. The dataset is not real. It was generated to consist of the data of 700 diabetic patients. 350 patients are from the Middle East countries while the rest are from East Asia. For each patient, the type of diabetes (type 1 or type 2), the age at diagnosis, the weight and the insulin dose were recorded. 
 - The bar chart shows that type 2 diabetes is more common than type 1 diabetes.
 - The histogram shows that the age distribution is bimodal due the age differences of the two types of diabetes. 
+- The scatter plot shows the direct linear relationship between patients' weights and their insulin doses.
+- The clustered bar chart shows the differences in the percentages of type 1 and type 2 diabetes between the Middle East and East Asia. 
+
 
 ## Dependencies
 * [NumPy](https://www.numpy.org/)
